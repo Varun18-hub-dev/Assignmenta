@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>8th Assignment</title>
+    <style>
+        body{
+            padding: 5px;
+            text-align: center;
+        }
+        .name{
+            margin: 10px;
+        }
+        .gender{
+            margin: 10px;
+        }
+        .country{
+            margin: 10px;
+        }
+        button{
+            margin: 10px;
+        }
+    </style>
+</head>
+<body>
+    <h2>
+        Fill the Form
+    </h2>
+    <form>
+        <div class="name">
+            <label for="fname">Username: </label><br>
+             <input type="text" id="fname" name="name">
+         </div>
+        <br>
+        <div class="gender">
+            <label for="gender">Select your gender: </label>
+            <br>
+            <input type="radio" id="male" name="gender" value="male">
+            <label for="male" >Male</label>
+            <input type="radio" id="female" name="gender" value="female">
+            <label for="female">Female</label><br>
+        </div>
+        <div class="country">
+            <label for="country">Select your Country: </label>
+            <select id="country" name="country">
+                <option id="AF">Afganistan</option>
+                <option id="In">India</option>
+                <option id="As">Australia</option>
+                <option id="eg">England</option>
+                <option id="nz">New Zealand</option>
+                <option id="pak">Pakistan</option>
+                <option id="th">Thailand</option>
+                <option id="koriea">Koriea</option>
+                <option id="can">Canada</option>
+            </select><br>
+        </div>
+
+        <button type="submit">Submit</button>
+    </form>
+</body>
+</html>
